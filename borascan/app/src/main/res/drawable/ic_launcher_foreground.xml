@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Card Base -->
+    <path
+        android:fillColor="#FAF7F0"
+        android:pathData="M24,34 h60 a4,4 0 0 1 4,4 v32 a4,4 0 0 1 -4,4 h-60 a4,4 0 0 1 -4,-4 v-32 a4,4 0 0 1 4,-4 z" />
+    <!-- 4 ArUco Markers -->
+    <path
+        android:fillColor="#1D1D1B"
+        android:pathData="M27,37 h8 v8 h-8 z M73,37 h8 v8 h-8 z M73,63 h8 v8 h-8 z M27,63 h8 v8 h-8 z" />
+    <!-- Color reference patches -->
+    <path android:fillColor="#F5F5F2" android:pathData="M38,40 h4 v4 h-4 z" />
+    <path android:fillColor="#9A9A96" android:pathData="M44,40 h4 v4 h-4 z" />
+    <path android:fillColor="#E9C226" android:pathData="M50,40 h4 v4 h-4 z" />
+    <path android:fillColor="#D0862A" android:pathData="M56,40 h4 v4 h-4 z" />
+    <path android:fillColor="#9E2F25" android:pathData="M62,40 h4 v4 h-4 z" />
+    <path android:fillColor="#2F3B2A" android:pathData="M68,40 h4 v4 h-4 z" />
+    <!-- Pad Slot & Curcumin strip -->
+    <path
+        android:fillColor="#E9C226"
+        android:pathData="M48,51 h12 v10 h-12 z" />
+    <path
+        android:fillColor="#0072B2"
+        android:pathData="M60,53 h16 v6 h-16 z" />
+    <!-- Optical Scan Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0072B2"
+        android:strokeWidth="1.5"
+        android:pathData="M20,54 h68" />
+</vector>
